@@ -1,6 +1,6 @@
 .projects-container {
   height: 50vh;
-  width: 50vw;
+  width: 40vw;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 50%;
@@ -8,6 +8,13 @@
   transform: translate(-50%, -50%);
   color: #FFF;
   overflow-y: auto;
+}
+
+.project-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-card {
@@ -18,7 +25,6 @@
   height: 5vh;
   width: 20vw;
   border: 2px solid #FFF;
-  margin-left: 2vw;
 }
 
 .projects-header {
@@ -42,6 +48,7 @@
   margin-left: 1vw;
 }
 
-.github-logo {
+.github-logo,
+.troubadour-logo {
   width: 2vw;
 }
