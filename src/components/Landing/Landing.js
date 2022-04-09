@@ -4,7 +4,10 @@ import './Landing.scss';
 
 const Landing = () => {
   return (
-    <img src={redRocks} alt="Red Rocks Amphitheatre" className="hero-image"/>
+    <section className="hero-image-container">
+      <img src={redRocks} alt="Red Rocks Amphitheatre" className="hero-image"/>
+    </section>
+
   )
 }
 
