@@ -7,11 +7,11 @@ const Header = () => {
     <nav>
       <h1>Ryan McBride</h1>
       <section className="link-container">
-        <Link to='/about'>About</Link>
-        <Link to='/resume'>Resume</Link>
-        <Link to='/contact'>Contact</Link>
-        <a target="_blank" href="https://github.com/mr-ryan12">GitHub</a>
-        <a target="_blank" href="https://www.linkedin.com/in/j-ryan-mcbride/">LinkedIn</a>
+        <Link to='/about' className="hover-underline-animation">About</Link>
+        <Link to='/resume' className="hover-underline-animation">Resume</Link>
+        <Link to='/contact' className="hover-underline-animation">Contact</Link>
+        <a target="_blank" href="https://github.com/mr-ryan12" className="hover-underline-animation">GitHub</a>
+        <a target="_blank" href="https://www.linkedin.com/in/j-ryan-mcbride/" className="hover-underline-animation">LinkedIn</a>
       </section>
     </nav>
   )
