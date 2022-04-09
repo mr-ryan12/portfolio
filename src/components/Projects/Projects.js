@@ -15,6 +15,13 @@ const Projects = () => {
             <a target="_blank" href="https://github.com/Troubadour-Project/troubadour-fe"><img src={githubLogo} alt="GitHub Logo" className="github-logo"/></a>
           </section>
         </section>
+        <section className="projects-card">
+          <h3 className="project-title">Phish</h3>
+          <section className="logo-container">
+            <a target="_blank" href="https://troubadour-fe.herokuapp.com/"><img src={troubadourLogo} alt="Troubadour Logo" className="troubadour-logo"/></a>
+            <a target="_blank" href="https://github.com/Troubadour-Project/troubadour-fe"><img src={githubLogo} alt="GitHub Logo" className="github-logo"/></a>
+          </section>
+        </section>
       </section>
     </section>
   )
