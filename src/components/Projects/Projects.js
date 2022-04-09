@@ -3,6 +3,7 @@ import githubLogo from '../../assets/github-logo.png';
 import troubadourLogo from '../../assets/troubadour-logo.png';
 import phishLogo from '../../assets/phish-logo.png';
 import artFromTheHeartLogo from '../../assets/art-from-the-heart-logo.png';
+import rancidLogo from '../../assets/rancid-logo.png';
 import './Projects.scss';
 
 const Projects = () => {
@@ -29,6 +30,13 @@ const Projects = () => {
           <section className="logo-container">
             <a target="_blank" href="https://art-from-the-heart.vercel.app/"><img src={artFromTheHeartLogo} alt="Art from the Heart Logo" className="art-from-the-heart-logo"/></a>
             <a target="_blank" href="https://github.com/mr-ryan12/art-from-the-heart"><img src={githubLogo} alt="GitHub Logo" className="github-logo"/></a>
+          </section>
+        </section>
+        <section className="projects-card">
+          <h3 className="project-title">Rancid Tomatillos</h3>
+          <section className="logo-container">
+            <a target="_blank" href="https://rancid-tomatillos-2022.herokuapp.com/"><img src={rancidLogo} alt="Art from the Heart Logo" className="art-from-the-heart-logo"/></a>
+            <a target="_blank" href="https://github.com/mr-ryan12/rancid-tomatillos"><img src={githubLogo} alt="GitHub Logo" className="github-logo"/></a>
           </section>
         </section>
       </section>
