@@ -10,9 +10,38 @@
   overflow-y: auto;
 }
 
+.projects-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  width: 20vw;
+  border: 2px solid #FFF;
+  margin-left: 2vw;
+}
+
 .projects-header {
   margin-top: 2vh;
   margin-bottom: 4vh;
   font-size: 3vh;
   font-weight: bold;
+}
+
+.logo-container {
+  width: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1vw;
+}
+
+.project-title {
+  font-size: 2.5vh;
+  margin-left: 1vw;
+}
+
+.github-logo {
+  width: 2vw;
 }
