@@ -5,7 +5,7 @@ import './Header.scss';
 const Header = () => {
   return (
     <nav>
-      <Link to="/">Ryan McBride</Link>
+      <Link to="/" className="title">Ryan McBride</Link>
       <section className="link-container">
         <Link to='/about' className="hover-underline-animation">About</Link>
         <Link to='/resume' className="hover-underline-animation">Resume</Link>
