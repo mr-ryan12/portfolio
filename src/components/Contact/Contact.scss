@@ -1,4 +1,4 @@
-.contact-section {
+.contact-container {
   height: 50vh;
   width: 40vw;
   background-color: rgba(0, 0, 0, 0.5);
@@ -8,6 +8,7 @@
   transform: translate(-50%, -50%);
   color: #FFF;
   overflow-y: auto;
+  border-radius: 100px;
 }
 
 .contact-header {
