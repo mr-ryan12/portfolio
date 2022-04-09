@@ -1,11 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import profileLogo from '../../assets/profile-icon.png';
+import { Link } from 'react-router-dom';
 import './Header.scss';
 
 const Header = () => {
   return (
     <nav>
-      <Link to="/" className="title">Ryan McBride</Link>
+      <section className="left-nav-container">
+        <Link to="/"><img src={profileLogo} alt="Profile Picture" className="profile-pic"/></Link>
+        <Link to="/" className="title">Ryan McBride</Link>
+      </section>
       <section className="link-container">
         <Link to='/about' className="hover-underline-animation">About</Link>
         <Link to='/resume' className="hover-underline-animation">Resume</Link>

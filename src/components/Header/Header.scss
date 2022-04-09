@@ -51,3 +51,13 @@ a {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.profile-pic {
+  width: 3vw;
+}
+
+.left-nav-container {
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+}
