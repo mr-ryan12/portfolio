@@ -1,0 +1,23 @@
+.about-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40vh;
+  width: 40vw;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.about-header {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 2.5vh;
+  line-height: 30px;
+}
