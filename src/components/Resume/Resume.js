@@ -5,7 +5,7 @@ import './Resume.scss';
 
 const Resume = () => {
   return (
-    <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 1.6 }} className="about-container">
+    <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 1.6 }}>
       <iframe src={resumePDF + '#toolbar=0'} className="resume"></iframe>
     </motion.div>
   )
