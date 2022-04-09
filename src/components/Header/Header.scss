@@ -1,0 +1,29 @@
+@import '../../styles/_reset';
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+  font-size: 2.5vh;
+}
+
+h1 {
+  margin-left: 1vw;
+}
+
+.link-container {
+  margin-right: 1vw;
+}
+
+.link-container > a {
+  margin: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
