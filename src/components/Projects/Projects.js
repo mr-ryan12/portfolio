@@ -12,9 +12,8 @@ const Projects = () => {
     <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: .4 }}>
       <section className="projects-container">
         <h2 className="projects-header">Projects</h2>
-        <i>It might take a few seconds to wake up the Heroku servers on the deployed links.</i>
-        <br />
-        <em className="dyno-message">Got to love those free dynos right?</em>
+        <p className="dyno-message">It might take a few seconds to wake up the Heroku servers on the deployed links.</p>
+        <p className="dyno-message">Got to love those free dynos right?</p>
         <section className="project-cards-container">
           <section className="projects-card">
             <h3 className="project-title">Troubadour</h3>
