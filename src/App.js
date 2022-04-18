@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-import FourOhFour from './components/FourOhFour/FourOhFour'
+import FourOhFour from './components/FourOhFour/FourOhFour';
 import './App.scss';
 
 const App = () => {
